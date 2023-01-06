@@ -29,7 +29,7 @@ nav li {
     margin-left: 50px;
     align-items: center;
     font-weight: 400;
-font-size: 20px;
+    font-size: 20px;
 }
 
 nav ul {
@@ -57,7 +57,7 @@ nav button .orange {
     border-radius: 5px;
     border: 0px;
     margin-right: 30px;
-    
+
 }
 
 .btn-contact {
@@ -74,15 +74,18 @@ nav button .orange {
 /*banner design*/
 .banner {
     margin: 0px 38px 0px 226px;
-   
-   display: flex;
-    align-items: center;
+
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .banner div {
     margin-right: 167px;
 }
-
+.banner img{
+   
+}
 .banner-subtitle {
     font-weight: 600;
     font-size: 45px;
@@ -201,7 +204,7 @@ section {
 /*Resume*/
 .edu-exp-container {
     display: flex;
-    
+
 }
 
 .edu-exp-title {
@@ -227,39 +230,46 @@ section {
     font-size: 16px;
     color: #757575;
 }
-.re{
+
+.re {
     margin: 30px 0px;
 }
 
-.last-container{
+.last-container {
     display: flex;
-   text-align: left;
-   background-color: rgb(226, 209, 209);
-   gap: 117px;
-   padding:  55px 280px 150px 280px;
-  
+    text-align: left;
+    background-color: rgb(226, 209, 209);
+    gap: 117px;
+    padding: 55px 280px 150px 280px;
+
 }
-.footer{
-  
+
+.footer {
+    
+    
 }
-.last-container h2{
+
+.last-container h2 {
     font-weight: 700;
-font-size: 35px;
+    font-size: 35px;
 }
-.connect-para{
+
+.connect-para {
     color: #474747;
     font-weight: 400;
-font-size: 16px;
+    font-size: 16px;
 }
-.text{
+
+.text {
     border: 0px;
     margin-bottom: 30px;
     width: 300px;
     padding: 18px 280px 18px 30px;
     font-weight: 400;
-font-size: 16px;
-   
+    font-size: 16px;
+
 }
-.connect input{
+
+.connect input {
     height: 64px;
 }
